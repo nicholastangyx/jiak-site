@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy notice — Jiak</title>
+  <meta name="description" content="How Jiak collects, uses, protects and deletes personal information.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#F5EDE2">
+  <link rel="canonical" href="https://jiak.app/privacy/">
+  <link rel="icon" href="/assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="draft-banner" role="status">Draft notice — controller name and children’s-data position will be updated before the app’s production launch</div>
+  <header class="site-header">
+    <a class="wordmark" href="/" aria-label="Jiak home">Jiak</a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="/">Home</a>
+      <a href="/privacy/" aria-current="page">Privacy</a>
+      <a href="/support/">Support</a>
+      <a href="/delete-account/">Delete account</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <header class="page-hero">
+      <p class="eyebrow">Your information</p>
+      <h1>Privacy notice</h1>
+      <p class="page-intro">This notice explains what Jiak collects, why it is used, who helps process it and the choices you have.</p>
+      <p class="updated">Draft dated 20 July 2026</p>
+    </header>
+
+    <div class="legal-shell">
+      <nav class="legal-nav" aria-label="Privacy notice sections">
+        <strong>On this page</strong>
+        <a href="#who">Who is responsible</a>
+        <a href="#collect">What we collect</a>
+        <a href="#use">How we use it</a>
+        <a href="#services">Service providers</a>
+        <a href="#transfers">International transfers</a>
+        <a href="#retention">Retention</a>
+        <a href="#rights">Your rights</a>
+        <a href="#deletion">Deletion</a>
+        <a href="#children">Children</a>
+        <a href="#contact">Contact and complaints</a>
+      </nav>
+
+      <article class="legal-content">
+        <div class="notice">
+          <strong>Draft status.</strong> The controller name below is a placeholder. Jiak’s intended age audience and any child-access safeguards also require a documented decision before the app’s production launch.
+        </div>
+
+        <section id="who">
+          <h2>1. Who is responsible</h2>
+          <p><span class="placeholder">[CONTROLLER NAME — REPLACE BEFORE PUBLISHING]</span>, operating Jiak as an individual in the United Kingdom, is the controller responsible for the personal information described in this notice.</p>
+          <p>For privacy questions or requests, email <a href="mailto:privacy@jiak.app">privacy@jiak.app</a>. For general help, email <a href="mailto:support@jiak.app">support@jiak.app</a>.</p>
+        </section>
+
+        <section id="collect">
+          <h2>2. What Jiak collects</h2>
+          <h3>Account and profile information</h3>
+          <p>Authentication identifiers and details you provide when creating or managing an account, such as your email address, username, display name and chosen food avatar. Clerk provides authentication.</p>
+          <h3>Your private diary content</h3>
+          <p>Restaurant check-ins, mandatory 0.0–10.0 ratings, notes, dishes, cost and group-size details, meal type, visit date and time, collections, place labels and private Snapshots.</p>
+          <h3>Photos and place information</h3>
+          <p>Photos you choose to attach, plus the selected restaurant’s name, address, Google place identifier and coordinates. Photos are stored privately and delivered using short-lived signed links.</p>
+          <h3>Location, camera and photo library</h3>
+          <p>Jiak asks for foreground precise location only while you use the restaurant picker to find nearby places. It does not request background location. Device coordinates are not retained after the selected restaurant coordinates are copied to your check-in. Camera and photo-library access occur only when you choose to attach photos.</p>
+          <h3>Analytics and diagnostics</h3>
+          <p>PostHog receives an opaque Clerk user identifier and limited app-lifecycle events. It does not receive your email address or username, and screen and touch autocapture are disabled. Sentry receives error and technical diagnostic information needed to identify and fix faults; this may include device, app-version, network and event context.</p>
+          <h3>Messages you send</h3>
+          <p>If you contact Jiak, the message, your contact details and information needed to handle your request will be processed. Do not send passwords or unnecessary sensitive information.</p>
+        </section>
+
+        <section id="use">
+          <h2>3. Why Jiak uses information</h2>
+          <table>
+            <thead><tr><th>Purpose</th><th>Information</th><th>UK lawful basis</th></tr></thead>
+            <tbody>
+              <tr><td>Provide and secure your account</td><td>Account, authentication and security information</td><td>Contract; legitimate interests in security and preventing misuse</td></tr>
+              <tr><td>Save and display your private diary</td><td>Check-ins, ratings, notes, photos, collections, labels and Snapshots</td><td>Contract</td></tr>
+              <tr><td>Find nearby restaurants when requested</td><td>Foreground device location and place search details</td><td>Steps you request to provide the service; your device permission and choice</td></tr>
+              <tr><td>Maintain and improve reliability</td><td>Limited lifecycle analytics and error diagnostics</td><td>Legitimate interests in understanding app operation, fixing errors and protecting the service</td></tr>
+              <tr><td>Answer requests and meet legal duties</td><td>Support, privacy and deletion correspondence</td><td>Legitimate interests; legal obligation where applicable</td></tr>
+            </tbody>
+          </table>
+          <p>Where processing relies on legitimate interests, Jiak considers the need for the processing against its effect on you. You may object as described under “Your rights”.</p>
+        </section>
+
+        <section id="services">
+          <h2>4. Services that help run Jiak</h2>
+          <ul>
+            <li><strong>Clerk</strong> — authentication and account identity.</li>
+            <li><strong>Supabase</strong> — application database and private photo storage.</li>
+            <li><strong>Railway</strong> — hosting for Jiak’s FastAPI backend.</li>
+            <li><strong>Google Places</strong> — restaurant and place search data.</li>
+            <li><strong>PostHog</strong> — limited lifecycle analytics linked to an opaque user identifier.</li>
+            <li><strong>Sentry</strong> — error monitoring and technical diagnostics.</li>
+          </ul>
+          <p>These providers process information to supply their services under their own terms and data-processing arrangements. Jiak may also disclose information when required by law, to protect legal rights or in connection with a properly managed transfer of the service.</p>
+        </section>
+
+        <section id="transfers">
+          <h2>5. International transfers</h2>
+          <p>Some service providers may process information outside the United Kingdom. Where UK personal information is transferred internationally, Jiak will use an applicable UK adequacy regulation or appropriate contractual and organisational safeguards required by UK data-protection law, depending on the provider and destination.</p>
+          <p>Production regions and provider transfer arrangements must be reviewed before this draft is published. You may contact <a href="mailto:privacy@jiak.app">privacy@jiak.app</a> for information about the safeguards applying to a particular transfer.</p>
+        </section>
+
+        <section id="retention">
+          <h2>6. How long information is kept</h2>
+          <p>Jiak keeps account and diary information while your account remains open and it is needed to provide the service. Individual memories and photos remain until you delete them or delete your account.</p>
+          <p>After deletion, information is removed from active Jiak systems. Limited residual copies may remain temporarily where required by backup cycles, service-provider deletion processes, security needs, dispute handling or legal obligations. Those copies are protected and are not used for ordinary product purposes.</p>
+          <p>Support, privacy and deletion-request correspondence is kept only for as long as needed to handle and evidence the request or meet legal obligations. Analytics and diagnostic records are kept according to configured provider retention settings and reviewed so they are not kept longer than necessary.</p>
+        </section>
+
+        <section id="rights">
+          <h2>7. Your rights</h2>
+          <p>Depending on the circumstances, UK data-protection law gives you rights to:</p>
+          <ul>
+            <li>ask for access to your personal information;</li>
+            <li>correct inaccurate or incomplete information;</li>
+            <li>ask for deletion or restriction;</li>
+            <li>object to processing based on legitimate interests;</li>
+            <li>receive certain information in a portable format; and</li>
+            <li>withdraw consent where processing relies on consent.</li>
+          </ul>
+          <p>Email <a href="mailto:privacy@jiak.app">privacy@jiak.app</a> to exercise a right. Jiak may need to verify your identity and will respond within the period required by applicable law.</p>
+        </section>
+
+        <section id="deletion">
+          <h2>8. Deleting your information</h2>
+          <p>You can delete individual check-ins and photos in the app. To delete the whole account, use <strong>Profile → Settings → Delete account</strong>. Jiak first removes stored photos and application records, then asks Clerk to delete the authentication account and signs you out.</p>
+          <p>If you cannot use the app, follow the <a href="/delete-account/">external deletion-request instructions</a>. Storage problems may temporarily prevent deletion; if that happens, Jiak retains the relevant records and asks you to retry so that it does not leave untracked photo files behind.</p>
+        </section>
+
+        <section id="security">
+          <h2>9. Security</h2>
+          <p>Jiak uses measures intended to protect personal information, including authenticated API access, owner-scoped records, private photo storage, short-lived signed photo links, input and upload validation, rate limiting and reduced public database exposure. No online service can guarantee absolute security.</p>
+        </section>
+
+        <section id="children">
+          <h2>10. Children</h2>
+          <p>Jiak is not designed specifically for children. This draft does not yet set a minimum user age. Before public launch, Jiak must document its intended audience and assess whether the service is likely to be accessed by people under 18, including any age-assurance, parental-consent or age-appropriate design measures required by UK law.</p>
+          <p>If you are under 18, review this notice and the terms with a parent or guardian before using Jiak. A parent or guardian with a concern may contact <a href="mailto:privacy@jiak.app">privacy@jiak.app</a>.</p>
+        </section>
+
+        <section id="changes">
+          <h2>11. Changes to this notice</h2>
+          <p>This notice may change when Jiak’s features, suppliers or legal obligations change. The date at the top will be updated, and material changes will be communicated where appropriate.</p>
+        </section>
+
+        <section id="contact">
+          <h2>12. Contact and complaints</h2>
+          <div class="contact-card">
+            <p><strong>Privacy contact:</strong> <a href="mailto:privacy@jiak.app">privacy@jiak.app</a></p>
+            <p><strong>Controller:</strong> <span class="placeholder">[CONTROLLER NAME — REPLACE BEFORE PUBLISHING]</span></p>
+          </div>
+          <p>If you remain concerned, you may complain to the UK Information Commissioner’s Office. Visit <a href="https://ico.org.uk/make-a-complaint/" rel="external">ico.org.uk/make-a-complaint</a> for current contact and complaint information.</p>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div><a class="wordmark footer-wordmark" href="/">Jiak</a><p class="footer-tagline">A private food diary for the meals you want to remember.</p></div>
+        <nav class="footer-links" aria-label="Footer navigation"><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/support/">Support</a><a href="/delete-account/">Delete account</a></nav>
+      </div>
+      <div class="footer-bottom">© 2026 Jiak. No cookies. No website tracking.</div>
+    </div>
+  </footer>
+</body>
+</html>
